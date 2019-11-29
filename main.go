@@ -29,7 +29,7 @@ func getReport(r io.Reader) (*horenso.Report, error) {
 }
 
 func getElapsedTime(report horenso.Report) (float64, error) {
-	if *report.ExitCode != 0 {
+	if report.ExitCode != 0 {
 		return 0.0, fmt.Errorf("report.ExitCode is %d", report.ExitCode)
 	}
 	return report.EndAt.Sub(*report.StartAt).Seconds(), nil
