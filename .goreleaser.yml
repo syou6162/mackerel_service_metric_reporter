@@ -4,11 +4,15 @@ before:
   hooks:
     # you may remove this if you don't use vgo
     - go mod tidy
-    # you may remove this if you don't need go generate
-    - go generate ./...
 builds:
-- env:
-  - CGO_ENABLED=0
+  - main: main.go
+    binary: mackerel_service_metric_reporter
+    goos:
+      - windows
+      - darwin
+      - linux
+    goarch:
+      - amd64
 archives:
 - replacements:
     darwin: Darwin
