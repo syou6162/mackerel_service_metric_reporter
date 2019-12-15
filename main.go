@@ -36,9 +36,9 @@ func getElapsedTime(report horenso.Report) (float64, error) {
 }
 
 func postReportToMackerel(report horenso.Report, serviceName string) error {
-	apiKey := os.Getenv("MACKEREL_API_KEY")
+	apiKey := os.Getenv("MACKEREL_APIKEY")
 	if apiKey == "" {
-		return errors.New("Cannot find MACKEREL_API_KEY")
+		return errors.New("Cannot find MACKEREL_APIKEY")
 	}
 
 	client := mkr.NewClient(apiKey)
