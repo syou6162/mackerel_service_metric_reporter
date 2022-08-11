@@ -22,8 +22,8 @@ github.com/lestrrat-go/envload v0.0.0-20180220234015-a3eb8ddeffcc/go.mod h1:kopu
 github.com/lestrrat-go/strftime v0.0.0-20180821113735-8b31f9c59b0f/go.mod h1:RMlXygAD3c48Psmr06d2G75L4E4xxzxkIe/+ppX9eAU=
 github.com/lestrrat-go/strftime v1.0.1 h1:o7qz5pmLzPDLyGW4lG6JvTKPUfTFXwe+vOamIYWtnVU=
 github.com/lestrrat-go/strftime v1.0.1/go.mod h1:E1nN3pCbtMSu1yjSVeyuRFVm/U0xoR76fd03sz+Qz4g=
-github.com/mackerelio/mackerel-client-go v0.17.0 h1:OpxUMGQuH6y9NjLnV1ZI4trm3qNKzvilP1Pjxp9e+eA=
-github.com/mackerelio/mackerel-client-go v0.17.0/go.mod h1:/GNOj+y1eFsd3CK8c6IQ/uS38/GT0+NWImk5YGJs5Lk=
+github.com/mackerelio/mackerel-client-go v0.21.1 h1:VeWwvXEvFSABD68HxCZYKE3f+yOVpXWp6imUe5IjNBo=
+github.com/mackerelio/mackerel-client-go v0.21.1/go.mod h1:/GNOj+y1eFsd3CK8c6IQ/uS38/GT0+NWImk5YGJs5Lk=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
