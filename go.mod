@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/Songmu/horenso v0.10.0
-	github.com/mackerelio/mackerel-client-go v0.21.2
+	github.com/mackerelio/mackerel-client-go v0.24.0
 )
 
 require (
@@ -14,10 +14,8 @@ require (
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/lestrrat-go/strftime v1.0.6 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
 	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
 	golang.org/x/sys v0.0.0-20210320140829-1e4c9ba3b0c4 // indirect
 	golang.org/x/text v0.3.7 // indirect
-	golang.org/x/tools v0.0.0-20200612022331-742c5eb664c2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
