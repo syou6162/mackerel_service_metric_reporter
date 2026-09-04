@@ -1,12 +1,12 @@
 module mackerel_service_metric_reporter
 
-go 1.24.0
+go 1.25.0
 
 toolchain go1.25.4
 
 require (
 	github.com/Songmu/horenso v0.10.0
-	github.com/mackerelio/mackerel-client-go v0.38.0
+	github.com/mackerelio/mackerel-client-go v0.47.0
 )
 
 require (
